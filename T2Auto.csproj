@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\itoutsource06\Desktop\AutoT2\Auto Jx2\T2Auto.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1FCAC13-F911-415F-8ADF-39A032ADA851}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>T2Auto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>dorajx2</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoLogin.cs" />
+    <Compile Include="AutoPK.cs" />
+    <Compile Include="KillNPC.cs" />
+    <Compile Include="Decrypt.cs" />
+    <Compile Include="DownloadProgress.cs" />
+    <Compile Include="Cosu.cs" />
+    <Compile Include="VNG.cs" />
+    <Compile Include="ThongTinDangNhap.cs" />
+    <Compile Include="BaoDanh.cs" />
+    <Compile Include="BomMau.cs" />
+    <Compile Include="CFont.cs" />
+    <Compile Include="Chats.cs" />
+    <Compile Include="ClickNPC.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Form1.cs" />
+    <Compile Include="HePhai.cs" />
+    <Compile Include="HookCall.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Nmk_Cosu.cs" />
+    <Compile Include="Pho_Ban.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerEnum.cs" />
+    <Compile Include="ProcessAccessFlags.cs" />
+    <Compile Include="ProcessJx2.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ReadMem.cs" />
+    <Compile Include="Sell.cs" />
+    <Compile Include="UyHoLenh.cs" />
+    <Compile Include="SetupPhoBan.cs" />
+    <Compile Include="TaoNhom.cs" />
+    <Compile Include="xdame.cs" />
+    <Compile Include="ThayDo.cs" />
+    <Compile Include="TrongCay.cs" />
+    <Compile Include="WinAPI.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutoPK.resx" />
+    <EmbeddedResource Include="BomMau.resx" />
+    <EmbeddedResource Include="Chats.resx" />
+    <EmbeddedResource Include="ClickNPC.resx" />
+    <EmbeddedResource Include="Cosu.resx" />
+    <EmbeddedResource Include="DangKy.resx" />
+    <EmbeddedResource Include="DangNhap.resx" />
+    <EmbeddedResource Include="DownloadProgress.resx" />
+    <EmbeddedResource Include="Form1.resx" />
+    <EmbeddedResource Include="KillNPC.resx" />
+    <EmbeddedResource Include="Login.resx" />
+    <EmbeddedResource Include="Nmk_Cosu.resx" />
+    <EmbeddedResource Include="Pho_Ban.resx" />
+    <EmbeddedResource Include="Sell.resx" />
+    <EmbeddedResource Include="TaoNhom.resx" />
+    <EmbeddedResource Include="ThayDo.resx" />
+    <EmbeddedResource Include="xdame.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
